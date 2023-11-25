@@ -1,0 +1,27 @@
+/* Write your code here. */
+.emoji-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0px;
+  width: 80%;
+  max-width: 980px;
+  justify-content: space-between;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+.emoji-game-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
